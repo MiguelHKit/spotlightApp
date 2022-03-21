@@ -9,6 +9,7 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *focoLabel;
 @property (strong, nonatomic) IBOutlet UIImageView *focoPrendidoImage;
 @property (strong, nonatomic) IBOutlet UISwitch *focoSwitch;
 
@@ -16,6 +17,9 @@
 
 @property (strong, nonatomic) IBOutlet UISlider *alphaSlider;
 - (IBAction)changeAlphaSlider:(UISlider *)sender;
+
+- (void) prenderFoco;
+- (void) apagarFoco;
 
 @end
 

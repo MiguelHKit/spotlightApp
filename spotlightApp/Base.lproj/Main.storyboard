@@ -66,9 +66,9 @@
                                     <constraint firstAttribute="width" constant="343" id="mbV-CE-VbF"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foco encendido" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGx-uJ-bnu">
-                                <rect key="frame" x="126.5" y="49" width="122" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foco encendido:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGx-uJ-bnu">
+                                <rect key="frame" x="122" y="49" width="131.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <color key="textColor" systemColor="systemGray5Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -112,6 +112,7 @@
                     </view>
                     <connections>
                         <outlet property="alphaSlider" destination="Bm1-Sc-EPu" id="yDi-mJ-upk"/>
+                        <outlet property="focoLabel" destination="yGx-uJ-bnu" id="HeC-5a-iND"/>
                         <outlet property="focoPrendidoImage" destination="uaA-nH-ea6" id="rja-ji-EbA"/>
                         <outlet property="focoSwitch" destination="nTb-Rz-ckQ" id="2D2-br-yVa"/>
                     </connections>
