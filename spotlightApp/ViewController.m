@@ -28,6 +28,7 @@
     self.alphaSlider.enabled = YES;
     self.alphaSlider.value = 1;//ponemos el slider a full
 }
+
 - (void) apagarFoco{
     //lo que hace si el foco se apaga
     self.focoPrendidoImage.hidden = YES;

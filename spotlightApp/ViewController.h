@@ -9,6 +9,8 @@
 
 @interface ViewController : UIViewController
 
+//@property(nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+
 @property (strong, nonatomic) IBOutlet UILabel *focoLabel;
 @property (strong, nonatomic) IBOutlet UIImageView *focoPrendidoImage;
 @property (strong, nonatomic) IBOutlet UISwitch *focoSwitch;
