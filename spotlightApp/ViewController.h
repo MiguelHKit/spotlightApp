@@ -9,6 +9,7 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UISwitch *focoSwitch;
 
 @end
 
