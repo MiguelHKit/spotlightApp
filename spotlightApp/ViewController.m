@@ -27,6 +27,10 @@
     
     self.alphaSlider.enabled = YES;
     self.alphaSlider.value = 1;//ponemos el slider a full
+    
+    self.bajoLabel.alpha = 1;
+    self.normalLabel.alpha = 1;
+    self.altoLabel.alpha = 1;
 }
 
 - (void) apagarFoco{
@@ -37,6 +41,10 @@
     
     self.alphaSlider.enabled = NO;
     self.alphaSlider.value = 0;//ponemos el slider a 0
+    
+    self.bajoLabel.alpha = 0.5;
+    self.normalLabel.alpha = 0.5;
+    self.altoLabel.alpha = 0.5;
 }
 
 - (IBAction)focoSwitch:(UISwitch *)sender {
@@ -48,5 +56,15 @@
 - (IBAction)changeAlphaSlider:(UISlider *)sender {
     //NSLog(@"Hola");
     self.focoPrendidoImage.alpha = sender.value;
+    
+    if(self.focoPrendidoImage.alpha==0){
+        self.bajoLabel.alpha = 0.5;
+        self.normalLabel.alpha = 0.5;
+        self.altoLabel.alpha = 0.5;
+    }else{
+        self.bajoLabel.alpha = 1;
+        self.normalLabel.alpha = 1;
+        self.altoLabel.alpha = 1;
+    }
 }
 @end

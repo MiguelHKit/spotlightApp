@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Bm1-Sc-EPu">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.10000000000000001" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Bm1-Sc-EPu">
                                 <rect key="frame" x="35" y="561" width="305" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Bm1-Sc-EPu" secondAttribute="height" multiplier="301:30" id="1BG-g3-zsj"/>
@@ -112,9 +112,12 @@
                     </view>
                     <connections>
                         <outlet property="alphaSlider" destination="Bm1-Sc-EPu" id="yDi-mJ-upk"/>
+                        <outlet property="altoLabel" destination="eYZ-RR-Exb" id="6TY-V2-MTR"/>
+                        <outlet property="bajoLabel" destination="lZf-l8-ZWW" id="pGJ-cu-1mZ"/>
                         <outlet property="focoLabel" destination="yGx-uJ-bnu" id="HeC-5a-iND"/>
                         <outlet property="focoPrendidoImage" destination="uaA-nH-ea6" id="rja-ji-EbA"/>
                         <outlet property="focoSwitch" destination="nTb-Rz-ckQ" id="2D2-br-yVa"/>
+                        <outlet property="normalLabel" destination="YA0-eQ-GmC" id="QBW-pu-rSv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

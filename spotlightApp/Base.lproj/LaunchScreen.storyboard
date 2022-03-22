@@ -17,29 +17,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPOTLIGHT APP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fbq-t3-fZl">
-                                <rect key="frame" x="83" y="64" width="209" height="33"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <rect key="frame" x="16" y="64" width="343" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="27"/>
                                 <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fotoprueba" translatesAutoresizingMaskIntoConstraints="NO" id="JY5-8R-bHm">
-                                <rect key="frame" x="62" y="208" width="250" height="250"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By: Piktamine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0O3-6b-96B">
+                                <rect key="frame" x="16" y="576.5" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="focoApagado" translatesAutoresizingMaskIntoConstraints="NO" id="4RJ-4R-pIB">
+                                <rect key="frame" x="87" y="216" width="201" height="235"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="JY5-8R-bHm" secondAttribute="height" multiplier="1:1" id="TSw-eI-Qw3"/>
+                                    <constraint firstAttribute="width" secondItem="4RJ-4R-pIB" secondAttribute="height" multiplier="201:235" id="IoW-xg-Qqs"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JY5-8R-bHm" secondAttribute="trailing" constant="63" id="65V-m2-ffQ"/>
-                            <constraint firstItem="Fbq-t3-fZl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="95B-hJ-9ug"/>
-                            <constraint firstItem="JY5-8R-bHm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="208" id="AAJ-b9-I3D"/>
-                            <constraint firstItem="JY5-8R-bHm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="DG8-ek-536"/>
+                            <constraint firstItem="Fbq-t3-fZl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5TI-0T-yo8"/>
+                            <constraint firstItem="0O3-6b-96B" firstAttribute="top" secondItem="4RJ-4R-pIB" secondAttribute="bottom" constant="125.5" id="AUa-Nv-Q7E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4RJ-4R-pIB" secondAttribute="trailing" constant="87" id="FAQ-Nf-XQg"/>
+                            <constraint firstItem="4RJ-4R-pIB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IBz-47-Zny"/>
+                            <constraint firstItem="4RJ-4R-pIB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="J2c-B0-0ko"/>
                             <constraint firstItem="Fbq-t3-fZl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="Kpw-ad-5of"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JY5-8R-bHm" secondAttribute="bottom" constant="209" id="bHW-R0-dxB"/>
+                            <constraint firstItem="0O3-6b-96B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="NxK-ai-Osd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0O3-6b-96B" secondAttribute="trailing" constant="16" id="OFO-Bm-b94"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0O3-6b-96B" secondAttribute="bottom" constant="70" id="Zjs-OB-GCq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fbq-t3-fZl" secondAttribute="trailing" constant="16" id="eTM-Px-0pY"/>
                             <constraint firstItem="Fbq-t3-fZl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fm7-Hx-hOg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fbq-t3-fZl" secondAttribute="trailing" constant="83" id="qzk-sG-qH8"/>
+                            <constraint firstItem="4RJ-4R-pIB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="yTl-Gu-0o6"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -49,9 +59,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="fotoprueba" width="1080" height="1080"/>
+        <image name="focoApagado" width="512" height="512"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
