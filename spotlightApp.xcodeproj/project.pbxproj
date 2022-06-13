@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		948BB0652856D56E000C5625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948BB0642856D56E000C5625 /* AppDelegate.swift */; };
+		948BB0692856D56E000C5625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948BB0682856D56E000C5625 /* ViewController.swift */; };
+		948BB06C2856D56E000C5625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948BB06A2856D56E000C5625 /* Main.storyboard */; };
+		948BB06E2856D572000C5625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948BB06D2856D572000C5625 /* Assets.xcassets */; };
+		948BB0712856D572000C5625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948BB06F2856D572000C5625 /* LaunchScreen.storyboard */; };
 		94F099EE27E7EE5A00CDC2C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F099ED27E7EE5A00CDC2C1 /* AppDelegate.m */; };
-		94F099F127E7EE5A00CDC2C1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F099F027E7EE5A00CDC2C1 /* SceneDelegate.m */; };
 		94F099F427E7EE5A00CDC2C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F099F327E7EE5A00CDC2C1 /* ViewController.m */; };
 		94F099F727E7EE5A00CDC2C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F099F527E7EE5A00CDC2C1 /* Main.storyboard */; };
 		94F099F927E7EE6700CDC2C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F099F827E7EE6700CDC2C1 /* Assets.xcassets */; };
@@ -17,11 +21,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		948BB0622856D56E000C5625 /* spotlightAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotlightAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		948BB0642856D56E000C5625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		948BB0682856D56E000C5625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		948BB06B2856D56E000C5625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		948BB06D2856D572000C5625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		948BB0702856D572000C5625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		948BB0722856D572000C5625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F099E927E7EE5A00CDC2C1 /* spotlightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotlightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F099EC27E7EE5A00CDC2C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94F099ED27E7EE5A00CDC2C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		94F099EF27E7EE5A00CDC2C1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		94F099F027E7EE5A00CDC2C1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		94F099F227E7EE5A00CDC2C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		94F099F327E7EE5A00CDC2C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		94F099F627E7EE5A00CDC2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -32,6 +41,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		948BB05F2856D56E000C5625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94F099E627E7EE5A00CDC2C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,10 +58,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		948BB0632856D56E000C5625 /* spotlightAppSwift */ = {
+			isa = PBXGroup;
+			children = (
+				948BB0642856D56E000C5625 /* AppDelegate.swift */,
+				948BB0682856D56E000C5625 /* ViewController.swift */,
+				948BB06A2856D56E000C5625 /* Main.storyboard */,
+				948BB06D2856D572000C5625 /* Assets.xcassets */,
+				948BB06F2856D572000C5625 /* LaunchScreen.storyboard */,
+				948BB0722856D572000C5625 /* Info.plist */,
+			);
+			path = spotlightAppSwift;
+			sourceTree = "<group>";
+		};
 		94F099E027E7EE5A00CDC2C1 = {
 			isa = PBXGroup;
 			children = (
 				94F099EB27E7EE5A00CDC2C1 /* spotlightApp */,
+				948BB0632856D56E000C5625 /* spotlightAppSwift */,
 				94F099EA27E7EE5A00CDC2C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				94F099E927E7EE5A00CDC2C1 /* spotlightApp.app */,
+				948BB0622856D56E000C5625 /* spotlightAppSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,8 +94,6 @@
 			children = (
 				94F099EC27E7EE5A00CDC2C1 /* AppDelegate.h */,
 				94F099ED27E7EE5A00CDC2C1 /* AppDelegate.m */,
-				94F099EF27E7EE5A00CDC2C1 /* SceneDelegate.h */,
-				94F099F027E7EE5A00CDC2C1 /* SceneDelegate.m */,
 				94F099F227E7EE5A00CDC2C1 /* ViewController.h */,
 				94F099F327E7EE5A00CDC2C1 /* ViewController.m */,
 				94F099F527E7EE5A00CDC2C1 /* Main.storyboard */,
@@ -79,6 +108,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		948BB0612856D56E000C5625 /* spotlightAppSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948BB0732856D572000C5625 /* Build configuration list for PBXNativeTarget "spotlightAppSwift" */;
+			buildPhases = (
+				948BB05E2856D56E000C5625 /* Sources */,
+				948BB05F2856D56E000C5625 /* Frameworks */,
+				948BB0602856D56E000C5625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spotlightAppSwift;
+			productName = spotlightAppSwift;
+			productReference = 948BB0622856D56E000C5625 /* spotlightAppSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
 		94F099E827E7EE5A00CDC2C1 /* spotlightApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94F09A0227E7EE6700CDC2C1 /* Build configuration list for PBXNativeTarget "spotlightApp" */;
@@ -102,8 +148,12 @@
 		94F099E127E7EE5A00CDC2C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					948BB0612856D56E000C5625 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					94F099E827E7EE5A00CDC2C1 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -123,11 +173,22 @@
 			projectRoot = "";
 			targets = (
 				94F099E827E7EE5A00CDC2C1 /* spotlightApp */,
+				948BB0612856D56E000C5625 /* spotlightAppSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		948BB0602856D56E000C5625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948BB0712856D572000C5625 /* LaunchScreen.storyboard in Resources */,
+				948BB06E2856D572000C5625 /* Assets.xcassets in Resources */,
+				948BB06C2856D56E000C5625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94F099E727E7EE5A00CDC2C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,6 +202,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		948BB05E2856D56E000C5625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948BB0692856D56E000C5625 /* ViewController.swift in Sources */,
+				948BB0652856D56E000C5625 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94F099E527E7EE5A00CDC2C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,13 +218,28 @@
 				94F099F427E7EE5A00CDC2C1 /* ViewController.m in Sources */,
 				94F099EE27E7EE5A00CDC2C1 /* AppDelegate.m in Sources */,
 				94F099FF27E7EE6700CDC2C1 /* main.m in Sources */,
-				94F099F127E7EE5A00CDC2C1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		948BB06A2856D56E000C5625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948BB06B2856D56E000C5625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		948BB06F2856D572000C5625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948BB0702856D572000C5625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		94F099F527E7EE5A00CDC2C1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -174,6 +259,72 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		948BB0742856D572000C5625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QPWUJCX8L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = spotlightAppSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Austerity.spotlightAppSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		948BB0752856D572000C5625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QPWUJCX8L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = spotlightAppSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Austerity.spotlightAppSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		94F09A0027E7EE6700CDC2C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -225,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,10 +442,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QPWUJCX8L6;
 				INFOPLIST_FILE = spotlightApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,10 +462,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QPWUJCX8L6;
 				INFOPLIST_FILE = spotlightApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +480,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		948BB0732856D572000C5625 /* Build configuration list for PBXNativeTarget "spotlightAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948BB0742856D572000C5625 /* Debug */,
+				948BB0752856D572000C5625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		94F099E427E7EE5A00CDC2C1 /* Build configuration list for PBXProject "spotlightApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
