@@ -59,8 +59,8 @@
                                             <action selector="changeAlphaSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Snj-b1-0bu"/>
                                         </connections>
                                     </slider>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="106" translatesAutoresizingMaskIntoConstraints="NO" id="uFz-9K-UUI">
-                                        <rect key="frame" x="226" y="74.5" width="324.5" height="18"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="106" translatesAutoresizingMaskIntoConstraints="NO" id="uFz-9K-UUI">
+                                        <rect key="frame" x="10" y="74.5" width="756" height="18"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bajo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZf-l8-ZWW">
                                                 <rect key="frame" x="0.0" y="0.0" width="31.5" height="18"/>
@@ -69,13 +69,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Normal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YA0-eQ-GmC">
-                                                <rect key="frame" x="137.5" y="0.0" width="52" height="18"/>
+                                                <rect key="frame" x="352.5" y="0.0" width="52" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                 <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alto" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYZ-RR-Exb">
-                                                <rect key="frame" x="295.5" y="0.0" width="29" height="18"/>
+                                                <rect key="frame" x="727" y="0.0" width="29" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                 <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                                 <nil key="highlightedColor"/>
@@ -85,6 +85,8 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Bm1-Sc-EPu" firstAttribute="leading" secondItem="niJ-6g-euA" secondAttribute="leading" constant="10" id="HC9-9o-rXy"/>
+                                    <constraint firstItem="uFz-9K-UUI" firstAttribute="leading" secondItem="niJ-6g-euA" secondAttribute="leading" constant="10" id="RlO-lr-M7G"/>
+                                    <constraint firstAttribute="trailing" secondItem="uFz-9K-UUI" secondAttribute="trailing" constant="10" id="fSz-cA-w68"/>
                                     <constraint firstAttribute="trailing" secondItem="Bm1-Sc-EPu" secondAttribute="trailing" constant="10" id="l3k-ud-nsG"/>
                                 </constraints>
                             </stackView>
