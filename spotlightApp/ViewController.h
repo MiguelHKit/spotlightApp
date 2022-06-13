@@ -24,6 +24,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *bajoLabel;
 @property (strong, nonatomic) IBOutlet UILabel *normalLabel;
 
+@property (weak, nonatomic) IBOutlet UILabel *economizadorLabel;
+
 - (void) prenderFoco;
 - (void) apagarFoco;
 

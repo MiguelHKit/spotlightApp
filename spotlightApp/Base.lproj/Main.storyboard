@@ -52,7 +52,7 @@
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.10000000000000001" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Bm1-Sc-EPu">
                                         <rect key="frame" x="8" y="32.5" width="760" height="31"/>
-                                        <color key="minimumTrackTintColor" systemColor="linkColor"/>
+                                        <color key="minimumTrackTintColor" systemColor="systemYellowColor"/>
                                         <color key="maximumTrackTintColor" systemColor="labelColor"/>
                                         <color key="thumbTintColor" systemColor="opaqueSeparatorColor"/>
                                         <connections>
@@ -116,6 +116,7 @@
                         <outlet property="alphaSlider" destination="Bm1-Sc-EPu" id="yDi-mJ-upk"/>
                         <outlet property="altoLabel" destination="eYZ-RR-Exb" id="6TY-V2-MTR"/>
                         <outlet property="bajoLabel" destination="lZf-l8-ZWW" id="pGJ-cu-1mZ"/>
+                        <outlet property="economizadorLabel" destination="WFm-Bn-FkL" id="9py-UO-yZI"/>
                         <outlet property="focoLabel" destination="yGx-uJ-bnu" id="HeC-5a-iND"/>
                         <outlet property="focoPrendidoImage" destination="uaA-nH-ea6" id="rja-ji-EbA"/>
                         <outlet property="focoSwitch" destination="nTb-Rz-ckQ" id="2D2-br-yVa"/>
@@ -132,9 +133,6 @@
         <image name="focoPrendido" width="600" height="679"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

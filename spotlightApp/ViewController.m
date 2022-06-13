@@ -30,6 +30,8 @@
         self.focoPrendidoImage.alpha = 1;
         self.alphaSlider.value = 1;
         self.focoLabel.text = @"Foco encendido:";
+        self.economizadorLabel.text = @"Economizador";
+        self.economizadorLabel.alpha = 1.0;
         [self.view layoutIfNeeded];
     }
                      completion:^(BOOL finalizado){
@@ -56,6 +58,8 @@
                      animations:^{
         self.focoPrendidoImage.alpha = 0;
         self.focoLabel.text = @"Foco apagado:";
+        self.economizadorLabel.text = @"Economizador (desactivado)";
+        self.economizadorLabel.alpha = 0.5;
         self.alphaSlider.value = 0;
         [self.view layoutIfNeeded];
     }
